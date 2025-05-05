@@ -126,4 +126,11 @@ SSH into WebsiteVM and update it
 - Configure prometheus.yml and map the IP to our WebsiteVM @ port 9093
 - Write/paste configuration targets
 - Restart prometheus
-
+- Go to Prometheus/blackBoxExporter GitHub repository
+- Copy scrape configurations under "Prometheus Configuration"
+- Paste it into prometheus.yml, edit the configuration to addyour ip:port
+- Restart Prometheus
+- Execute blackBox_Exporter file
+- cp mail configurations into alertmanager.yml
+- Edit the configuration to write your own username, identity and password
+- Restart alert manager and prometheus
