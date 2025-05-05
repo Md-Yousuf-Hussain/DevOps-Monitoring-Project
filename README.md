@@ -134,3 +134,7 @@ SSH into WebsiteVM and update it
 - cp mail configurations into alertmanager.yml
 - Edit the configuration to write your own username, identity and password
 - Restart alert manager and prometheus
+
+## References:
+### Gdrive Link: https://drive.google.com/file/d/1sUbIS3BNGF4YzYXAjgI3Nlx1BDCEkJIm/view?usp=drive_link
+### YouTube Link: https://www.youtube.com/watch?v=0Ec_VeO60m8&t=11s
